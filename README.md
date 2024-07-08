@@ -6,8 +6,33 @@ Rubi seemingly depends heavily on many bespoke features of Mathematica, in parti
 
 Mock-MMA was written by Richard Fateman from the University of California, Berkeley in 1990. 
 
-# Prerequisites for Mock-MMA
+## Prerequisites for Mock-MMA
 
 A Common LISP interpreter. Mock-MMA was implemented with Allegro Common LISP which is proprietry software. However, it seemingly runs fine under CLISP (https://en.wikipedia.org/wiki/CLISP). 
+
+## Running Mock-MMA
+
+Run CLISP
+
+$ clisp
+
+;; Load Mock-MMA files:
+
+[1]> (load "init.lisp")
+:
+;; Compile and load Mock-MMA
+
+[2]> (compile-mma)
+
+[3]> (load-mma)
+
+;; Start the Mock-MMA repl:
+
+MMA[4]> (tl)
+
+Mock-Mma  11:43 Monday, Jul 8, 2024  
+
+In[1] := 1+1
+Out[2] = 2
 
 
