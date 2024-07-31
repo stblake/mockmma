@@ -33,6 +33,7 @@ MMA[4]> (tl)
 Mock-Mma  11:43 Monday, Jul 8, 2024  
 
 In[1] := 1+1
+
 Out[2] = 2
 
 ## Loading Rubi
